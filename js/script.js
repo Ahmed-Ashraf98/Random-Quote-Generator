@@ -54,8 +54,8 @@ function generateQuotes() {
   <blockquote class="quote-box mt-5 position-relative">
     <i class="top-quote-icon position-absolute fa-solid fa-quote-left"></i>
     <i class="bottom-quote-icon position-absolute fa-solid fa-quote-left"></i>
-    <p class="text-start"><q>${qouteObj.qouteTxt}</q></p>
-    <p>&mdash; <cite>${qouteObj.qouteAuthor}</cite></p>
+    <p><q>${qouteObj.qouteTxt}</q></p>
+    <p>&mdash; <cite class="fs-6">${qouteObj.qouteAuthor}</cite></p>
   </blockquote>
   `;
 
